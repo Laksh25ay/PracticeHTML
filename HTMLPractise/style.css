@@ -1,4 +1,11 @@
+body{
+    padding : 0;
+    margin: 0;
+}
+
 .header1-3{
+    margin : 1rem;
+    padding : 1rem;
     background-color: aquamarine;
 }
 
@@ -6,11 +13,26 @@
     color: rgb(116, 150, 23);
 }
 
-div{
+.header4-6{
+    margin : 1rem;
+    padding : 1rem;
     background-color: aqua;
+}
+
+.div2-header{
+    color: rgb(62, 93, 231);
 }
 
 p{
     font-size: large;
     color : blueviolet;
+}
+
+.anchor{
+    text-decoration: none;
+}
+
+.anchor:hover{
+    color: rgb(0, 255, 13);
+    font-size : larger;
 }
