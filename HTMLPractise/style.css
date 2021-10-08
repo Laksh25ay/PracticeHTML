@@ -41,6 +41,7 @@ p{
     border: rgb(175, 31, 31) solid 12px;
     padding : 1rem;
     margin : 1rem;
+    border-radius : 50px 25px ;
 }
 
 .form-elements{
