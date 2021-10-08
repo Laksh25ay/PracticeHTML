@@ -39,13 +39,14 @@ p{
 
 .test-Form{
     border: rgb(175, 31, 31) solid 12px;
+    background-color: rgba(201, 11, 11, 0.2);
     padding : 1rem;
     margin : 1rem;
     border-radius : 50px 25px ;
 }
 
 .form-elements{
-    border: rgb(0, 240, 0) solid 6px;
+    border: rgb(152, 235, 96) solid 6px;
     margin : 1rem;
     border-radius: 2rem;
 }
@@ -62,6 +63,18 @@ img{
     background-color: aquamarine;
     margin : 1rem;
     padding: 1rem;
+}
+
+.U-List1{
+    list-style-type: square;
+}
+
+.O-List{
+    list-style-type: lower-greek;
+}
+
+.U-List2{
+    /* list-style-image: url('Texture.jpg'); */
 }
 
 footer{
