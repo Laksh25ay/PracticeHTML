@@ -36,3 +36,40 @@ p{
     color: rgb(0, 255, 13);
     font-size : larger;
 }
+
+.test-Form{
+    border: rgb(175, 31, 31) solid 12px;
+    padding : 1rem;
+    margin : 1rem;
+}
+
+.form-elements{
+    border: rgb(0, 240, 0) solid 6px;
+    margin : 1rem;
+    border-radius: 2rem;
+}
+
+table{
+    border : blue solid 5px;
+}
+
+img{
+    border : rgb(62, 93, 231) dashed 4px;
+}
+
+.Only-div{
+    background-color: aquamarine;
+    margin : 1rem;
+    padding: 1rem;
+}
+
+footer{
+    line-height: 4rem;
+    background-color: rgb(248, 194, 129);
+    text-align: center;
+}
+
+footer > span{
+    color: aliceblue;
+    font-size: larger;
+}
