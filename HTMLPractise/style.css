@@ -73,6 +73,43 @@ img{
     list-style-type: lower-greek;
 }
 
+.Parent{
+    border : 5px solid rgb(27, 149, 206);
+    height : 200px;
+    width : 200px;
+    position: relative;
+}
+
+.Child{
+    border : 4px solid rgb(27, 206, 152);
+    border-radius: 50px;
+    height : 100px;
+    width : 100px;
+    position: absolute;
+    bottom: 0;
+    right : 0;
+    margin: 45px;
+    text-align: center;
+
+}
+
+.Page-Fixed{
+    background-image: url('SampleImage.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border : solid rgb(135, 35, 230) 4px;
+    border-radius: 50px;
+    height : 125px;
+    width: 125px;
+    position: fixed;
+    bottom : 0;
+    right : 0;
+}
+
+.Child-span{
+    padding: 10px;
+}
+
 footer{
     margin-top : 1rem;
     line-height: 4rem;
