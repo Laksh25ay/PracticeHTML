@@ -17,6 +17,8 @@ img{
 
 .card{
     /* border: 2px red solid; */
+    /* float: left;
+    width: 25%; */
     background-color: beige;
     width: 20%;
     padding: 2rem;
@@ -30,4 +32,9 @@ img{
 
 .card:hover{
     box-shadow: 5px 10px 8px 4px #888888;
+    cursor: pointer;
+}
+
+.card > .content:hover{
+    text-shadow: 1px 1px 1px #888888;
 }
