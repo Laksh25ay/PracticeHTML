@@ -42,7 +42,7 @@ hr{
 
 .left-card-h1{
     color: rgb(34, 212, 153);
-    margin: 2rem;
+    margin: 1.5rem;
     text-align: center;
 }
 
@@ -90,7 +90,7 @@ hr{
 
 .card-body{
     background-color: #fff;
-    padding: 3rem;
+    padding: 2rem;
     border-bottom-left-radius: 0.8rem;
     border-bottom-right-radius: 0.8rem;
 }
@@ -98,27 +98,27 @@ hr{
 .btn-1{
     background-color: rgb(31, 228, 120);
     color: #fff;
-    padding: 0.8rem;
+    padding: 0.5rem;
     border: none;
     border-radius: 1.5rem;
     margin: none;
     position: absolute;
-    top: 330px;
-    left: 40px;
-    width: 10rem;
+    top: 320px;
+    left: 50px;
+    width: 8rem;
     cursor: pointer;
 }
 
 .btn-2{
     background-color: rgb(43, 115, 224);
     color: #fff;
-    padding: 0.8rem;
+    padding: 0.5rem;
     border: none;
     border-radius: 1.5rem;
     margin: none;
     position: absolute;
-    top: 375px;
-    left: 40px;
-    width: 10rem;
+    top: 360px;
+    left: 50px;
+    width: 8rem;
     cursor: pointer;
 }
