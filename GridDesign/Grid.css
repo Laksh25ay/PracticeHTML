@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 body{
@@ -51,6 +54,7 @@ footer{
     background-color: rgb(241, 215, 97);
     text-align: center;
     line-height: 2rem;
+    padding: 0.5rem;
 }
 
 @media screen and (max-width : 870px) {
