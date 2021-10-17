@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 .container{
     /* border: 2px orange solid; */
     margin: 2rem;
@@ -22,7 +28,7 @@ img{
     background-color: beige;
     width: 20%;
     /* height: 100%; */
-    padding: 2rem;
+    padding: 3rem;
     margin:1rem;
 }
 
@@ -38,4 +44,20 @@ img{
 
 .card > .content:hover{
     text-shadow: 1px 1px 1px #888888;
+}
+
+footer{
+    margin-top: auto;
+    background-color: rgb(241, 215, 97);
+    text-align: center;
+    line-height: 2rem;
+}
+
+@media screen and (max-width : 870px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
